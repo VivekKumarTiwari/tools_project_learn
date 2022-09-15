@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="antbasic_java_example" default="clean" basedir=".">
+    <target name="clean">
+        <delete dir="build/classes"/>
+        <delete dir="build/dist"/>
+        <delete dir="build"/>
+    </target>
+    <target name="createDirs" depends="clean">
+        <mkdir dir="build"/>
+        <mkdir dir="build/classes"/>
+        <mkdir dir="build/dist"/>
+    </target>
+    <target name="compile" depends="createDirs">
+        <javac srcdir="src" destdir="build/classes"/>
+    </target>
+    <target name="execute" depends="compile">
+        <java classname="com.vivek.it.TestMain" classpath="build/classes"/>
+    </target>
+
+</project>
