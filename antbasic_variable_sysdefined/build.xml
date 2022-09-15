@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="antbasic_variable_sysdefined" default="systemVariable" basedir=".">
+   <target name="systemVariable"> 
+      <echo>Java version : ${java.version} </echo>
+      <echo>User name : ${user.name} </echo>
+      <echo>Jave home : ${java.home} </echo>
+      <echo>OS name : ${os.name} </echo>
+      <echo>User time zone : ${user.timezone} </echo>
+      <echo>User country : ${user.country} </echo>
+      <echo>User language : ${user.language} </echo>
+      <echo>User directory : ${user.dir} </echo>
+      <echo>User home : ${user.home} </echo>
+   </target>
+</project>
