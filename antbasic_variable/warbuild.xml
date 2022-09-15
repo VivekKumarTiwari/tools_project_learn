@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="antbasic_variable" default="printVariable" basedir=".">
+  <property name="autherName" value="Vivek Kumar Tiwari" />
+  <target name="printVariable">
+     <echo> ${autherName} is the auther of the this ant project !! </echo>
+  </target>
+</project>
