@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="antbasic_depends-on" default="execute" basedir=".">
+<target name="cleanDirs">
+ <echo> Cleaning the project! </echo>
+</target>
+<target name="createDirs" depends="cleanDirs">
+  <echo> Creating the directories of the project! </echo>
+</target>
+<target name="compile" depends="createDirs">
+ <echo> Compiling the project!!</echo>
+</target>
+<target name="execute" depends="compile">
+ <echo> executing the project!!</echo>
+</target>
+</project>
