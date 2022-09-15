@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="antbasic_default" default="print" basedir=".">
+<target name="print">
+ <echo> Hi frausteted developer!! How are you? </echo>
+</target>
+</project>
