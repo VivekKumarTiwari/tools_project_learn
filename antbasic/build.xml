@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="antbasic">
+ <target name="print">
+  <echo>Good Morning Vivek. How are you feel today.</echo>
+ </target>
+</project>
