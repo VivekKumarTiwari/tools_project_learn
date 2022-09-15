@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="antbasic_variable_env" default="envVariable" basedir=".">
+   <property environment="env"/>
+   <target name="envVariable">
+      <echo> Java home : ${env.JAVA_HOME} </echo>
+      <echo> Ant home : ${env.ANT_HOME} </echo>
+   </target>
+</project>
