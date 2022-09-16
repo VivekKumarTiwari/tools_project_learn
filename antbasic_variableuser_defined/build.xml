@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="antbasic_userdefined_varible" default="userDefinedVar" basedir=".">
+    <property file="build-qa.properties"/>
+    <target name="userDefinedVar">
+      <echo>Build Version : ${build.version} </echo>
+      <echo>Project Name : ${project.name} </echo>
+      <echo>Project Name : ${project.name} </echo>
+      <echo>Project Author Name : ${project.author.name} </echo>
+      <echo>Project Deployer Name : ${project.deployer.name} </echo>
+    </target>
+</project>
